@@ -1,0 +1,12 @@
+clone    =>  git clone <Your_repo_url>
+sync     =>  git pull origin <branch_name>
+
+config   => git config --global user.email "<yourEmailID>"
+         => git config --global user.name "<yourUserName>"
+
+
+push     => git status
+            git add . (or) git add <particular_file_name>
+            git commit -m "<commit_message>"
+            git pull origin <branch_name>
+            git push origin <branch_name>
