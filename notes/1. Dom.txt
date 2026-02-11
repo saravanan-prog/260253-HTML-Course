@@ -1,0 +1,57 @@
+What is HTML?
+=============
+
+    👉 HTML (HyperText Markup Language) is the standard language used to create web pages.
+    👉 It tells the browser:
+
+         " What content to show
+           How the content is structured "
+
+
+       👉   HTML is not a programming language
+       👉   It is a markup language
+       👉  It uses tags like <h1>, <p>, <a>
+
+
+
+
+
+Document Object Model : 
+======================
+
+       DOM (Document Object Model) is a programming interface for HTML and XML documents.
+       It represents a web page as a tree-like structure of objects, where:
+
+         👉  Each HTML element becomes a node
+         👉   JavaScript can access, modify, add, or delete these nodes
+         👉  The browser creates the DOM when the page loads
+
+               Document
+               │
+               └── html
+                  │
+                  ├── head
+                  │   └── title
+                  │       └── "My Page"
+                  │
+                  └── body
+                     ├── h1
+                     │   └── "Hello"
+                     │
+                     └── p
+                           └── "Welcome to DOM"
+
+Simple DOM
+===========
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <title> Demo Website </title>
+   </head>
+   <body>
+      <p> Welcome To Website </p>
+   </body>
+</html>
+
+  

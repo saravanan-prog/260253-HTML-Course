@@ -1,0 +1,99 @@
+📌 Full Basic Structure Example
+==================================
+
+        <!DOCTYPE html>
+        <html>
+            <head>
+                <title>My Page</title>
+            </head>
+        <body>
+            <h1>Hello Saravanan</h1>
+            <p>This is HTML structure</p>
+        </body>
+        </html>
+
+
+Simple Structure Diagram
+========================
+
+
+        html
+        ├── head
+        │    └── title
+        └── body
+            ├── h1
+            └── p
+
+
+
+What is DOCTYPE?
+================
+    DOCTYPE (Document Type Declaration) tells the browser:
+    What version of HTML the page is written in.
+
+    <!DOCTYPE html>
+
+    This means:
+    -----------
+       👉 The document is using HTML5
+       👉 The browser should use standard mode
+       👉 Helps browser render page correctly
+       👉 Prevents "quirks mode" (old incorrect layout behavior)
+       👉 Ensures modern standards are used
+
+
+<html>
+======
+     👉 Root tag of the webpage
+     👉 Everything must be inside this tag
+
+        Example:
+
+            <html>
+            </html>
+
+
+    👉 It tells the browser: “This is an HTML document.”
+
+ <head>
+ ======
+    👉 Contains information about the page
+    👉 Not visible on the webpage
+        Used for:
+
+            <title>
+            meta tags
+            CSS links
+            JavaScript links
+
+        Example:
+            <head>
+            </head>
+
+<title>
+=======
+     👉 Inside <head>
+     👉 Shows name in browser tab
+
+     Example:
+
+        <title>My Website</title>
+
+
+    👉 This appears on the top browser tab.
+
+
+<body>
+======
+
+   👉 Contains visible content
+   👉 What users actually see
+
+        Example:
+
+        <body>
+            <h1>Hello</h1>
+            <p>Welcome</p>
+        </body>
+
+    
