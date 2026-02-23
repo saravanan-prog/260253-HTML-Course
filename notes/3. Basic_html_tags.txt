@@ -1,0 +1,81 @@
+HTML TAGS
+==========
+
+   👉 HTML tags are special keywords used to create and structure web pages.
+   👉 They are written inside angle brackets: 
+                <tagname>
+       Most tags have:
+
+            Opening tag → <tag>
+            Closing tag → </tag>
+
+
+Types of HTML Tags
+==================
+    1. Container Tags (Paired Tags)     =>  These have opening and closing tags.
+    2. Empty Tags (Self-Closing Tags)   =>  These do not have closing tags.
+
+
+
+Text Tags
+=========
+
+    <h1> to <h6> – Headings
+    <p> – Paragraph
+    <br> – Line break
+    <hr> – Horizontal line
+
+Formatting Tags
+===============
+    <b>       – Bold
+    <strong>  – Important text
+    <i>       – Italic    
+    <em>      – Emphasized text
+    <u>       – Underline
+    <mark>    – Highlight
+    <sup>     – Superscript
+    <sub>     – Subscript
+
+List Tags
+=========
+    <ul> – Unordered list
+    <ol> – Ordered list
+    <li> – List item
+
+Link and Image Tags
+====================
+    <a>     – Anchor (link)
+    <img>   – Image
+
+Table Tags
+==========
+    <table>
+    <tr> – Table row
+    <td> – Table data
+    <th> – Table heading
+
+Form Tags
+=========
+    <form>
+    <input>
+    <label>
+    <textarea>
+    <select>
+    <button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

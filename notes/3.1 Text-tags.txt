@@ -1,0 +1,45 @@
+
+Text Tags
+=========
+
+      <h1> to <h6> – Headings
+      <p> – Paragraph
+      <br> – Line break
+      <hr> – Horizontal line
+
+
+
+
+1️⃣ Headings (<h1> – <h6>)
+=========================== 
+  👉  Used for titles and section headings.
+    
+     ✅ Example:
+        <h1>Main Heading</h1>
+        <h2>Sub Heading</h2>
+        <h3>Section Heading</h3>
+
+2️⃣ Paragraph (<p>)
+===================
+  👉 Used for writing content in paragraph form.
+  👉 Automatically adds spacing
+  👉 Do not use <br> for paragraph spacing
+
+     ✅ Example:
+        <p>This is a paragraph.</p>
+
+
+3️⃣ Line Break (<br>)
+======================
+    👉 Breaks line without starting a new paragraph.
+
+     ✅ Example:
+        Hello<br>World
+
+
+4️⃣ Horizontal Rule (<hr>)
+=========================
+    👉 Creates a horizontal line to separate content.
+
+     ✅ Example:
+       <hr>

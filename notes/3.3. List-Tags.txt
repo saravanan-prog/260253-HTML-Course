@@ -1,0 +1,62 @@
+List Tags in HTML
+=====================
+    👉 HTML provides three main tags to create lists:
+
+        <ul>  – Unordered List
+        <ol>  – Ordered List
+        <li>  – List Item
+
+1️⃣ <ul> – Unordered List
+-------------------------
+   👉 Used to create a bulleted list.
+
+    ✅ Example:
+
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Mango</li>
+        </ul>
+
+    📌 Output:
+        • Apple
+        • Banana
+        • Mango
+
+    Attributes
+    -----------
+        <ul type="disc">   <!-- Default -->
+        <ul type="circle">
+        <ul type="square">
+
+
+
+
+2️⃣ <ol> – Ordered List
+------------------------
+   👉 Used to create a numbered list.
+
+   ✅ Example:
+
+        <ol>
+            <li>Wake up</li>
+            <li>Brush teeth</li>
+            <li>Go to school</li>
+        </ol>
+    
+    📌 Output:
+
+        1. Wake up
+        2. Brush teeth
+        3. Go to school
+
+    
+     Attributes
+    -----------
+        <ol type="1">   <!-- Numbers (default) -->
+        <ol type="A">   <!-- Capital Letters -->
+        <ol type="a">   <!-- Small Letters -->
+        <ol type="I">   <!-- Roman Capitals -->
+        <ol type="i">   <!-- Roman Small -->
+
+        <ol start="5">  <!-- Used to start numbering from a different number. -->

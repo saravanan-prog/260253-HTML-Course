@@ -1,0 +1,101 @@
+                                        TEXT FORMATTING TAGS
+                                        ====================
+
+
+
+Formatting Tags
+===============
+
+        <b>       – Bold
+        <strong>  – Important text
+        <i>       – Italic    
+        <em>      – Emphasized text
+        <u>       – Underline
+        <mark>    – Highlight
+        <sup>     – Superscript
+        <sub>     – Subscript
+
+
+
+1️⃣ <strong> vs <b>
+==================
+   🔹 <strong>
+
+            👉 Semantic tag
+            👉 Indicates important text
+            👉 Screen readers give emphasis
+            👉 Default style: bold
+        Example:
+            <p>This is <strong>important</strong> text.</p>
+            
+   🔹 <b>
+
+        👉 Non-semantic tag
+        👉 Just makes text bold
+        👉 No extra meaning
+
+        Example:
+          <p>This is <strong> important </strong> text.</p>
+
+2️⃣ <em> vs <i>
+===============
+    
+        🔹 <em>
+
+            👉 Semantic tag
+            👉 Adds emphasis
+            👉 Screen readers stress the word
+            👉 Default style: italic
+
+            Example
+                <p>This is <em>very important</em>.</p>
+        
+        🔹 <i>
+
+            👉 Non-semantic
+            👉 Just makes text italic
+            👉 Often used for:
+            👉 Icons
+            👉 Technical terms
+            👉 Foreign words
+
+            Example
+                <p>This is <i>italic</i> text.</p>
+    
+
+3️⃣ <mark>
+==========
+
+       👉 Highlights text
+       👉 Default: yellow background
+
+        <p>This is <mark>highlighted</mark> text.</p>
+
+
+4️⃣ <small>
+
+     👉 Makes text smaller
+     👉 Used for:
+     👉 Copyright
+     👉 Legal text
+     👉 Side comments
+
+        <p>Price: $100 <small>Taxes extra</small></p>
+
+
+5️⃣ <sub> and <sup>
+===================
+    🔹 <sub> (Subscript)
+
+        👉 Displays text slightly below normal line
+
+                    H<sub>2</sub>O
+
+                    Output: H₂O
+
+    🔹 <sup> (Superscript)
+
+        👉 Displays text slightly above normal line
+
+            x<sup>2</sup>
+            Output: x²

@@ -1,0 +1,105 @@
+Semantic HTML
+=============
+   👉  Semantic HTML uses meaningful tags that clearly describe the purpose of the content.
+
+   Example:
+   
+        <header> → Header section
+        <footer> → Footer section
+
+   Instead of using: <div>
+
+
+🧠 Why Semantic HTML is Important
+===================================
+   📌 Improves readability of code
+   📌 Better SEO
+   📌 Helps screen readers (accessibility)
+   📌 Easier website structure understanding
+
+🔹 <header> Represents introductory content.
+
+      Usually contains:
+
+         Website title
+         Logo
+         Heading
+         Navigation (sometimes)
+
+🔹 <nav> Contains navigation links.
+
+      <nav>
+         <a href="#">Home</a>
+         <a href="#">About</a>
+         <a href="#">Contact</a>
+      </nav>
+
+🔹 <section> : Represents a section of content.
+
+      <section>
+         <h2>About Us</h2>
+         <p>We are learning HTML.</p>
+      </section>
+
+🔹 <article> : Represents independent content.
+
+      Examples:
+         Blog post
+         News article
+         Forum post
+
+         <article>
+            <h2>HTML Basics</h2>
+            <p>This is an article about HTML.</p>
+         </article>
+
+
+🔹 <footer> : Represents footer section.
+
+      Usually contains:
+      Copyright
+      Contact info
+      Author name
+
+      <footer>
+         <p>© 2026 My Website</p>
+      </footer>
+
+
+
+Complete Example Page
+=====================
+
+<!DOCTYPE html>
+   <html>
+      <head>
+         <title>Semantic HTML Example</title>
+      </head>
+   <body>
+
+      <header>
+         <h1>My School Website</h1>
+      </header>
+
+      <nav>
+         <a href="#">Home</a>
+         <a href="#">About</a>
+         <a href="#">Contact</a>
+      </nav>
+
+      <section>
+         <h2>Welcome</h2>
+         <p>This is our school website.</p>
+      </section>
+
+      <article>
+         <h2>Latest News</h2>
+         <p>Annual day will be held next month.</p>
+      </article>
+
+      <footer>
+         <p>© 2026 ABC School</p>
+      </footer>
+
+   </body>
+</html>

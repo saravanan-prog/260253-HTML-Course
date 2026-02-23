@@ -1,0 +1,85 @@
+HTML Elements
+=============
+    👉 An HTML element is the building block of a webpage. It usually consists of:
+
+         <opening-tag> Content </closing-tag>
+
+         Example:  <p> This is a paragraph </p>
+
+
+    Types of HTML Elements
+    ======================
+       1. Block-Level Elements
+        ----------------------
+
+            👉 Take full width available
+            👉  Start on a new line
+
+                Examples:
+                    <div>
+                    <p>
+                    <h1> to <h6>
+                    <section>
+                    <article>
+                    <header>
+                    <footer>
+                    <nav>
+                    <ul>, <ol>, <li>
+        
+        2. Inline Elements
+        -------------------
+           👉 Do NOT start on a new line
+           👉 Take only required width
+
+           Examples:
+                <span>
+                <a>
+                <img>
+                <strong>
+                <em>
+                <label>
+        
+        3. Self-Closing (Void) Elements
+        --------------------------------
+            👉 These do NOT have closing tags.
+
+                Examples:
+
+                    <br />
+                    <hr />
+                    <img />
+                    <input />
+                    <meta />
+                    <link />
+
+       
+        4.  Semantic Elements
+        ----------------------
+          👉 Provide meaning to the content (good for SEO & accessibility).
+
+                Examples:
+
+                    <header>
+                    <footer>
+                    <article>
+                    <section>
+                    <aside>
+                    <main>
+                    <nav>
+
+
+
+
+🔥 Commonly Used HTML Elements
+
+    ========================================================
+    | Category | Elements                                   |
+    | -------- | ------------------------------------------ |
+    | Headings | `<h1>` – `<h6>`                            |
+    | Text     | `<p>`, `<strong>`, `<em>`                  |
+    | Links    | `<a>`                                      |
+    | Images   | `<img>`                                    |
+    | Lists    | `<ul>`, `<ol>`, `<li>`                     |
+    | Forms    | `<form>`, `<input>`, `<button>`, `<label>` |
+    | Tables   | `<table>`, `<tr>`, `<td>`, `<th>`          |
+    ---------------------------------------------------------

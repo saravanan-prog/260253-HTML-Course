@@ -1,0 +1,55 @@
+Link and Image Tags
+===================
+
+    <a>     – Anchor (Link)
+    <img>   – Image
+
+
+1️⃣ <a> – Anchor Tag (Link)
+****************************
+
+    👉  Used to create hyperlinks that connect one page to another page or website.
+    👉  href → destination address
+    👉  target="_blank" → opens in new tab
+
+    🧠 Basic Syntax:
+    -----------------
+
+        <a href="URL">Link Text</a>
+
+    ✅ Example 1 : External Website
+    --------------------------------
+
+        <a href="https://www.google.com" target="_blank">
+            Open Google
+        </a>
+
+    ✅ Example 2 : Link to Another Page
+    ------------------------------------
+
+        <a href = "about.html"> About Page </a>
+
+
+
+2️⃣ <img> – Image Tag
+*********************
+ 👉 Used to display images on a webpage.
+ 👉 Attributes:
+
+        --------------------------------------------
+        | Attribute | Meaning                      |
+        | --------- | ---------------------------- |
+        | `src`     | Image file location          |
+        | `alt`     | Description (very important) |
+        | `width`   | Image width                  |
+        | `height`  | Image height                 |
+        --------------------------------------------
+
+
+
+ 🧠 Basic Syntax:
+    <img src="image.jpg" alt="Description">
+
+    ✅ Example:
+        <img src="flower.jpg" alt="Beautiful Flower">
+        

@@ -1,0 +1,77 @@
+Table Tags in HTML
+===================
+
+    <table> – Creates a table
+    <th>    – Table heading (header cell)
+    <tr>    – Table row
+    <td>    – Table data (cell)
+
+
+
+Table Attributes
+================
+🔹 border: Used for visibility in beginner level
+
+        <table border="1">
+
+🔹 colspan :  Used to merge columns.
+    
+        <td colspan="2">Total</td>
+
+🔹 rowspan:  Used to merge rows.
+
+        <td rowspan="2">Arun</td>
+
+
+Example code
+============
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Table Example</title>
+    </head>
+    <body>
+
+        <h2>Student Marks</h2>
+
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Math</th>
+                <th>Science</th>
+            </tr>
+            <tr>
+                <td>Arun</td>
+                <td>85</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Priya</td>
+                <td>88</td>
+                <td>92</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+
+Advanced Structure
+====================
+    🔹 <thead> - Table header section.
+    🔹 <tbody> - Table body section.
+
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Math</th>
+        </tr>
+    </thead>
+<tbody>
+    <tr>
+      <td>Priya</td>
+      <td>95</td>
+    </tr>
+  </tbody>
+</table>
